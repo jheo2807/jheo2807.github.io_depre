@@ -23,7 +23,7 @@ last_modified_at: 2020-09-23
 
 자 행렬 $R$을 singular value decomposition하면 $R = U \Sigma V^T$로 쪼갤 수 있다.
 
-$R=m*n$이면 $U=m*l, \Sigma=l*l, V^T = 1*n$매트릭스가 될 거다.
+$R=m*n$ 이면 $U=m\*l, \Sigma=l\*l, V^T = 1\*n$매트릭스가 될 거다.
 
 $R=m*n$ 이면 $U=m*l, \Sigma=l*l, V^T=l*n$ 매트릭스가 될 거다.
 
