@@ -1,3 +1,19 @@
+---
+title:  "정지문제"
+excerpt: "정지 문제에 대하여"
+
+categories:
+  - QC
+tags:
+  - [QC, Math]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 # Halting Problem
 
 다른 예는 [https://www.youtube.com/watch?v=crK01_Mc5Nw&ab_channel=김필산의사이언스비치](https://www.youtube.com/watch?v=crK01_Mc5Nw&ab_channel=%EA%B9%80%ED%95%84%EC%82%B0%EC%9D%98%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4%EB%B9%84%EC%B9%98)

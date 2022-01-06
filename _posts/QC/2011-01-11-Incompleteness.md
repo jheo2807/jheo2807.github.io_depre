@@ -1,3 +1,19 @@
+---
+title:  "불완정성 정리"
+excerpt: "수학의 불완정성"
+
+categories:
+  - QC
+tags:
+  - [QC, Math]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 # Incompleteness Theorem
 
 "명제 A는 증명 불가능하다" 라는 명제가 존재함을 증명하는 것.

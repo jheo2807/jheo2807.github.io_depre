@@ -1,3 +1,19 @@
+---
+title:  "Turing Machine"
+excerpt: "튜링 머신에 대해"
+
+categories:
+  - QC
+tags:
+  - [QC, Math]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 # Turing Machine
 
 Hibert: Definition과 Axiom을 입력하면 모든 Mathematical Theorem을 Deduce할 수 있는 만능 기계가 있지 않을까?

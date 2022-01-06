@@ -1,3 +1,19 @@
+---
+title:  "신 존재의 증명"
+excerpt: "괴델"
+
+categories:
+  - QC
+tags:
+  - [QC, Math]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 # 신 존재 증명
 
 $$

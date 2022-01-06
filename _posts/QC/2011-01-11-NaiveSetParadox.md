@@ -1,3 +1,19 @@
+---
+title:  "소박한 집합론의 역설"
+excerpt: "뭐더라..."
+
+categories:
+  - QC
+tags:
+  - [QC, Math]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 # 소박한 집합론의 역설
 
 집합론이 제대로 정의된 시절같지는 않다(아마도?). 

@@ -1,3 +1,19 @@
+---
+title:  "Busy Beaver Problem"
+excerpt: "큰 수에 대하여"
+
+categories:
+  - QC
+tags:
+  - [QC, Math]
+
+toc: true
+toc_sticky: true
+ 
+date: 2020-05-25
+last_modified_at: 2020-05-25
+---
+
 # Busy Beaver
 
 Busy Beaver Turing Machine, 줄여서 BB라고 하는 이 Concept은
