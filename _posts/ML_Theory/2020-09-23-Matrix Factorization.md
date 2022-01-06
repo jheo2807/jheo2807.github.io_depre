@@ -9,7 +9,8 @@ tags:
 
 toc: true
 toc_sticky: true
- 
+use_math: true 
+
 date: 2020-09-23
 last_modified_at: 2020-09-23
 ---
