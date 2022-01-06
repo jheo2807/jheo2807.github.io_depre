@@ -21,7 +21,7 @@ last_modified_at: 2020-09-23
 
 내가 원래 가지고 있던 궁금증이, 매트릭스 $R$ 과 최대한 근접할 (rmse측면에서) $\hat R$을 만들바엔, 차라리 그냥 $R$을 쓰면 되는거 아닌가?  $R$을 쓰면 overfitting이고 missing value interpolation이 안된다면서 왜 $\hat R$은 최대한 $R$과 가깝게 하는 것인가? 최적으로 되서 $R$ = $\hat R$이 되면 오버피팅인데?? 라는 의문이 들었음
 
-자 행렬 $R$을 singular value decomposition하면 $R = U \Sigma V^T$로 쪼갤 수 있다. 
+자 행렬 $R$을 singular value decomposition하면 $R = U \Sigma V^T$로 쪼갤 수 있다.
 
 $R = m*n$ 이면 $U = m*l, \Sigma = l*l, V^T = l*n$ 매트릭스가 될 거다.
 
