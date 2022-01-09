@@ -28,7 +28,7 @@ Turing Machine?
 
 [Automata](https://www.notion.so/Automata-d5b849054f5b4f8298a996d9a7c700fb)
 
-![Turing](assets\my_images\TuringMachine03.png)
+![TuringMachine03](TuringMachine03.png)
 
 head는 state를 가지고 있다.
 
@@ -48,7 +48,8 @@ Turing Machine은 무엇을 할까?
 
 기호 집합 $X = \{0,1\},$ 상태 집합 $S = \{s_0, s_1, H \}, s_0 : initial \ state, H:halting \ state$ 라고 하자. 명령 테이블이
 
-![Turing2](assets\my_images\TuringMachine01.png)
+![Turing2](TuringMachine01.png)
+
 
 이렇게 있을 때, 전부 0으로 초기화 된 테이프의 한 점에 헤드가 있으면 왔다 갔다 하면서 1 1 1 1, 15를 출력한다. [https://youtu.be/BOr1waCdv3U?t=863](https://youtu.be/BOr1waCdv3U?t=863)
 
@@ -56,11 +57,11 @@ Turing Machine은 무엇을 할까?
 
 다른 예 + 이 쪽에서 중요한 문제인 Halting 문제를 보려면 아래 페이지를 보자.
 
-[Halting Problem](https://www.notion.so/Halting-Problem-a3cdb91a6b8c4973b6ce17ae68979c51)
+[Halting Problem](2011-01-11-HaltingProblem.md)
 
 하여튼 이런 거를 The n-state Busy Beaver Problem이라고 하고, 이거를 더 멋있게 설명하는게 Finite State Automata이다.
 
-[Busy Beaver](https://www.notion.so/Busy-Beaver-fafd01bc88f04300b3b8269ee5dc86d9)
+[Busy Beaver](2011-01-11-BusyBeaver.md)
 
 이런 식으로 튜링머신을 설계하면, (이론적으로)계산 가능한 모든 것을 할 수 있다.
 
@@ -78,4 +79,4 @@ Shannon: 정보의 최소 단위는 비트이고, 고로 모든 정보는 0,1로
 
 그리고 이 Universal Turing Machine을 차용한게 현재의 컴퓨터다
 
-![Turing3](assets\my_images\TuringMachine02.png)
+![Turing3](TuringMachine02.png)
