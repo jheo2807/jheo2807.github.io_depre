@@ -15,20 +15,20 @@
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en_GB"
-title                    : "Note that will be sexy"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Jaewoong"
-description              : "D.S. notebook"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+locale                   : "ko_KR"
+title                    : "Blog with temporary configuration"
+title_separator          : "&#124;
+subtitle                 : "ver .01"
+name                     : "j.heo"
+description              : "Notebook of math and science"
+url                      : "https://jheo2807.github.io"
+baseurl                  : "/blog"
+repository               : "jheo2807//jheo2807.github.io"
+teaser                   : "![teaser](https://user-images.githubusercontent.com/48908914/148715681-74e81a00-593e-49f3-86f7-08c3c6d1be7b.png)"
+logo                     : "![icl](https://user-images.githubusercontent.com/48908914/148715817-c11f7c36-e5e4-451c-8738-60bc78cdd139.png)"
+masthead_title           : "mastheadTitle"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 150
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -102,56 +102,59 @@ analytics:
 
 # Site Author
 author:
-  name             : "Heo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "im not dev."
+  name             : "GeoGeun"
+  avatar           : "![E5qc4ovVcAASf5g](https://user-images.githubusercontent.com/48908914/148716100-4f230c28-f02e-4a5c-89d3-bdeb3044290f.jpg)"
+  bio              : "D.S., waiting for next paradigm"
   location         : "Seoul"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:jheo2807@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      url: "jheo2807@gmail.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/jheo2807"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/jaewoong-heo-0609/"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://linkedin.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jheo2807@gmail.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "jheo2807@gmail.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/jheo2807"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/jaewoong-heo-0609/"
 
 
 # Reading Files
