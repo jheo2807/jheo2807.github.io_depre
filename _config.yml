@@ -25,10 +25,10 @@ description              : "Notebook of math and science"
 # baseurl                  : "/blog"
 repository               : "jheo2807//jheo2807.github.io"
 teaser                   : "https://user-images.githubusercontent.com/48908914/148715681-74e81a00-593e-49f3-86f7-08c3c6d1be7b.png"
-logo                     : "https://user-images.githubusercontent.com/48908914/148724852-d1b870f8-050a-4500-9d56-1b0361ccfd89.jpg"
+logo                     : #"https://user-images.githubusercontent.com/48908914/148724852-d1b870f8-050a-4500-9d56-1b0361ccfd89.jpg"
 masthead_title           : "Blog is a truncation of weblog"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 150
+words_per_minute         : 100
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
