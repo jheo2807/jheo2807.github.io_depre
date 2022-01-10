@@ -84,7 +84,6 @@ Supposing \
 \mathbf{Y} \in \mathbb{R}^{m \times r}_{+}, \ 
 \mathbf{W} \in \mathbb{R}^{r \times n}_{+}, \ 
 the \ non-negative \ matrix \ factorization \ problem \ is \ defined \ as: 
-\\ {}
 $$
 
 $$
