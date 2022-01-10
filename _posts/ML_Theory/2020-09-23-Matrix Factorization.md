@@ -52,7 +52,8 @@ $$
 
 그러나 이런 rank-minimization은 NP-hard문제로 there is no efficient way to solve this problem.
 
-[http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf)- 관련 논문
+관련 논문 [http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf)
+
 
 근데 왜 이런 문제가 optimal이 불가일까? 자 convexity의 필요 조건은 Hessian matrix가 positive semidefinite 가 돼야 한다. (Convex 함수라는거 자체가 Hessian matrix가 positive semidefinite인 함수를 뜻한다. 그리고 모든 local minima가 곧 global minima임을 보장받는다.)  Positive semidefinite란 (참조: [https://be-favorite.tistory.com/46](https://be-favorite.tistory.com/46))
 
