@@ -52,7 +52,7 @@ $$
 
 그러나 이런 rank-minimization은 NP-hard문제로 there is no efficient way to solve this problem.
 
-[http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf) - 관련 논문
+[http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=D59578D6141F1F00F48AD3D4632A7FF9?doi=10.1.1.365.8055&rep=rep1&type=pdf)- 관련 논문
 
 근데 왜 이런 문제가 optimal이 불가일까? 자 convexity의 필요 조건은 Hessian matrix가 positive semidefinite 가 돼야 한다. (Convex 함수라는거 자체가 Hessian matrix가 positive semidefinite인 함수를 뜻한다. 그리고 모든 local minima가 곧 global minima임을 보장받는다.)  Positive semidefinite란 (참조: [https://be-favorite.tistory.com/46](https://be-favorite.tistory.com/46))
 
@@ -85,12 +85,18 @@ Supposing \
 \mathbf{W} \in \mathbb{R}^{r \times n}_{+}, \ 
 the \ non-negative \ matrix \ factorization \ problem \ is \ defined \ as: 
 \\ {}
+$$
+
+$$
 \\
 \min_{\mathbf{Y},\mathbf{W}} \left\|
 \mathbf{X}-\mathbf{Y}\mathbf{W}
 \right\|^2_F
 \\ {}
 \\
+$$
+
+$$
 Why \ is \ this \ problem \ non-convex?
 $$
 
@@ -98,6 +104,9 @@ A:
 
 $$
 Consider \ the \ scalar \ case; \ that \ is, \ m=n=1. \ Then \ the \ problem \ is
+$$
+
+$$
 \\ {}
 \\
 \min_{y,w \ge0}(x-yw)^2
@@ -107,6 +116,9 @@ Consider \ the \ scalar \ case; \ that \ is, \ m=n=1. \ Then \ the \ problem \ i
 2xyw
 +y^2w^2
 \\ {}
+$$
+
+$$
 \\
 (Definition)\ The \ gradient \ \nabla f \ and \ Hessian \ \nabla^2 f \ of \ a \ function \ f \ is
 \\ {}
