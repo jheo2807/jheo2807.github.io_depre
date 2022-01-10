@@ -28,7 +28,7 @@ Turing Machine?
 
 [Automata](https://www.notion.so/Automata-d5b849054f5b4f8298a996d9a7c700fb)
 
-![TuringMachine03](TuringMachine03.png)
+![TuringMachine03](https://user-images.githubusercontent.com/48908914/148714112-ff4b0ed1-cdd0-4b88-81b0-20d0dfdb930f.png)
 
 head는 state를 가지고 있다.
 
@@ -48,7 +48,7 @@ Turing Machine은 무엇을 할까?
 
 기호 집합 $X = \{0,1\},$ 상태 집합 $S = \{s_0, s_1, H \}, s_0 : initial \ state, H:halting \ state$ 라고 하자. 명령 테이블이
 
-![Turing2](TuringMachine01.png)
+![TuringMachine01](https://user-images.githubusercontent.com/48908914/148714051-ef891bbd-6abf-4751-8f94-e32e22346994.png)
 
 
 이렇게 있을 때, 전부 0으로 초기화 된 테이프의 한 점에 헤드가 있으면 왔다 갔다 하면서 1 1 1 1, 15를 출력한다. [https://youtu.be/BOr1waCdv3U?t=863](https://youtu.be/BOr1waCdv3U?t=863)
@@ -79,4 +79,4 @@ Shannon: 정보의 최소 단위는 비트이고, 고로 모든 정보는 0,1로
 
 그리고 이 Universal Turing Machine을 차용한게 현재의 컴퓨터다
 
-![Turing3](TuringMachine02.png)
+![TuringMachine02](https://user-images.githubusercontent.com/48908914/148714101-ca2bdc95-d182-4330-8dab-3c2696abe73f.png)
