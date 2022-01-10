@@ -24,8 +24,8 @@ description              : "Notebook of math and science"
 # url                      : "https://jheo2807.github.io"
 # baseurl                  : "/blog"
 repository               : "jheo2807//jheo2807.github.io"
-teaser                   : "![teaser](https://user-images.githubusercontent.com/48908914/148715681-74e81a00-593e-49f3-86f7-08c3c6d1be7b.png)"
-logo                     : "![icl](https://user-images.githubusercontent.com/48908914/148715817-c11f7c36-e5e4-451c-8738-60bc78cdd139.png)"
+teaser                   : "https://user-images.githubusercontent.com/48908914/148715681-74e81a00-593e-49f3-86f7-08c3c6d1be7b.png"
+logo                     : "https://user-images.githubusercontent.com/48908914/148715817-c11f7c36-e5e4-451c-8738-60bc78cdd139.png"
 masthead_title           : "mastheadTitle"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
