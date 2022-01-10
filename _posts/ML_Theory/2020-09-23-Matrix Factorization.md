@@ -57,19 +57,19 @@ $$
 근데 왜 이런 문제가 optimal이 불가일까? 자 convexity의 필요 조건은 Hessian matrix가 positive semidefinite 가 돼야 한다. (Convex 함수라는거 자체가 Hessian matrix가 positive semidefinite인 함수를 뜻한다. 그리고 모든 local minima가 곧 global minima임을 보장받는다.)  Positive semidefinite란 (참조: [https://be-favorite.tistory.com/46](https://be-favorite.tistory.com/46))
 
 $$
-M\ is\ positive\ definite\ =\ x^T Mx > 0 for\ all\ x \in \R^n
+M\ is\ positive\ definite\ =\ x^T Mx > 0 for\ all\ x \in \mathbb{R}^n
 $$
 
 $$
-M\ is\ positive\ semi-definite\ =\ x^T Mx \geq 0 for\ all\ x \in \R^n
+M\ is\ positive\ semi-definite\ =\ x^T Mx \geq 0 for\ all\ x \in \mathbb{R}^n
 $$
 
 $$
-M\ is\ negative\ definite\ =\ x^T Mx < 0 for\ all\ x \in \R^n
+M\ is\ negative\ definite\ =\ x^T Mx < 0 for\ all\ x \in \mathbb{R}^n
 $$
 
 $$
-M\ is\ semi-negative\ definite\ =\ x^T Mx \leq 0 for\ all\ x \in \R^n
+M\ is\ semi-negative\ definite\ =\ x^T Mx \leq 0 for\ all\ x \in \mathbb{R}^n
 $$
 
 라는 크거나 bounded된 거여야 한다.
