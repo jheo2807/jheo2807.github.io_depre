@@ -11,12 +11,21 @@
 #   # - title: "Sitemap"
 #   #   url: /sitemap/
 
+# main:
+#   - title: "Categories"
+#     url: /categories/
+#   - title: "Tags"
+#     url: /tags/
+#   - title: "About"
+#     url: /about/
+#   - title: "연도별 포스트"
+#     url: /posts/
+
+# main links
 main:
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "블로그 방문하기"
+    url: https://devinlife.com/
   - title: "About"
     url: /about/
-  - title: "연도별 포스트"
-    url: /posts/
+  - title: "Categories"
+    url: /categories/
