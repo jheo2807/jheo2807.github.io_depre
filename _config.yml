@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko_KR"
 title                    : "Blog with temporary configuration"
-title_separator          : "&#124;"
+title_separator          : "-"
 subtitle                 : "It first jokingly broke into we+blog and then the 'blog' part became verb"
-name                     : "j.heo"
+name                     : "jheo"
 description              : "Notebook of math and science"
 url                      : "https://jheo2807.github.io"
 baseurl                  : # "/blog"
-repository               : "jheo2807//jheo2807.github.io"
+repository               : #"jheo2807//jheo2807.github.io"
 teaser                   : "https://user-images.githubusercontent.com/48908914/148715681-74e81a00-593e-49f3-86f7-08c3c6d1be7b.png"
 logo                     : #"https://user-images.githubusercontent.com/48908914/148724852-d1b870f8-050a-4500-9d56-1b0361ccfd89.jpg"
 masthead_title           : "Blog is a truncation of weblog"
@@ -32,7 +32,7 @@ words_per_minute         : 100
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "jheo2807-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : #"jheo2807-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -111,9 +111,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jheo2807@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "jheo2807@gmail.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "jheo2807@gmail.com"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
