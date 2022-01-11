@@ -21,8 +21,8 @@ title_separator          : "&#124;"
 subtitle                 : "It first jokingly broke into we+blog and then the 'blog' part became verb"
 name                     : "j.heo"
 description              : "Notebook of math and science"
-# url                      : "https://jheo2807.github.io"
-# baseurl                  : "/blog"
+url                      : "https://jheo2807.github.io"
+baseurl                  : # "/blog"
 repository               : "jheo2807//jheo2807.github.io"
 teaser                   : "https://user-images.githubusercontent.com/48908914/148715681-74e81a00-593e-49f3-86f7-08c3c6d1be7b.png"
 logo                     : #"https://user-images.githubusercontent.com/48908914/148724852-d1b870f8-050a-4500-9d56-1b0361ccfd89.jpg"
@@ -225,7 +225,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -292,7 +292,18 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # 블로그 댓글 기능 true
       share: true
       related: true
-      mathjax: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
